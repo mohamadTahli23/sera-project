@@ -373,7 +373,7 @@ a {
 .landing-page {
     position: relative;
     min-height: 100vh;
-    background-image: url(../images/background-image1.jpg);
+    background-image: url(/images/background-image1.jpg);
     background-size: cover;
     transition: var(--main-transition);
 }
@@ -391,7 +391,7 @@ a {
 
 .landing-page .header {
     position: relative;
-    z-index: 1000;
+    z-index: 500;
     display: flex;
     justify-content: space-between;
 }
