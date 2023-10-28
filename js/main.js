@@ -129,7 +129,7 @@ function randomizeImgs() {
       let randomNum = Math.floor(Math.random() * imgsArray.length);
     
       // Change background image url
-      landing.style.backgroundImage = `url("images/background-image${imgsArray[randomNum]}")`;
+      landing.style.backgroundImage = `url("./images/background-image${imgsArray[randomNum]}")`;
     }, 1000);
   }
 }
